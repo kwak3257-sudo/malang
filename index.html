@@ -1,3 +1,11 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#FF6FA8">
 <title>말랑이 온라인</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -255,6 +263,9 @@ button.mail{width:100%;border:0}
 .mail .txt small{display:block;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
+</head>
+<body>
+
 
 <div class="app">
   <header class="top wrap">
@@ -1396,3 +1407,6 @@ function adminGate(){
   $('#adminGo').onclick=go;$('#adminPin').addEventListener('keydown',e=>{if(e.key==='Enter')go()});setTimeout(()=>$('#adminPin')?.focus(),100)}
 adminGate();window.addEventListener('hashchange',adminGate);
 </script>
+
+</body>
+</html>
